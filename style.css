@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Preahvihear&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,200;8..144,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+}
+.nav-title{
+    color:aliceblue;
+    margin:10px;
+    display: flex;
+}
+.nav-links{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    color: aliceblue;
+}
+.active{
+    margin: 15px;
+}
+.btn{
+    margin: 15px;
+    background-color: #17A2B8;
+    font-family: 'Roboto', sans-serif;
+    font-style:normal;
+    color: aliceblue;
+    height: 30px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.nav-links{
+    color:aliceblue;
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+.contenedor{
+    display:flex
+}
+.container {
+    height: 420px;
+    background-color: #FFFFFF;
+    border: 1px solid  gray; 
+}
+.portada {
+    height: 25%;
+    background-color:#17A2B8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-portada {
+    width: 100%; 
+}
+
+.contenido {
+    padding-left: 20px;
+}
+
+.profile-pic {
+    height: 120px;
+    width: 120px;
+    position:relative;
+    bottom: 70px;
+    left: 10px;
+}
+h2{
+    height: 120px;
+    position:relative;
+    bottom: 70px;
+    left: 5px;
+}
+
+.ubicacion{
+    position:relative;
+    bottom: 150px;
+    left: 5px;
+}
+#ubicacion-pic{
+    width: 14px;
+    height: 20px;
+    float: left; 
+    margin-right: 10px;
+}
+.descripcion{
+    position:relative;
+    bottom: 140px;
+    left: 10px;
+}
+.edit-profile{
+    position:relative;
+    bottom: 130px;
+    left: 5px;
+}
+#link{
+    color:#17A2B8;
+    text-decoration:underline;
+}
+.cambiar-pic{
+    width: 15px;
+    height: 15px;
+    float: left; 
+    margin-right: 10px;
+}
+
+.bloque-1{
+    width: 60%;
+    padding: 40px;
+    display: flexbox;
+}
+.education{
+    width: 100%;
+    bottom: 70px;
+    border: 1px solid  gray; 
+    margin-top: 10px;
+}
+#portada-1{
+    background-color: #17A2B8;
+    width: 100%;
+    height: 40px;
+    text-align: center; 
+}
+#info{
+    display: inline;
+    width: 100%;
+}
+.bloque-2{
+    flex: 1;
+    padding: 1%;
+    margin: 1%;
+}
+
+#p1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#img-perfil{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.p2{
+    display: flex;
+    padding: 5px;
+}
+h5{
+    padding: 10px;
+}
+.connections{
+    margin: 20px;
+    border: 1px solid  gray; 
+}
